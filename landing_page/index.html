@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOES landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="img/logo.png" alt="" class="logo1"></a>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Whats new</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Let your feet do the talking<br>with <span>Litshoe</span></h2>
+                <button class="btn"><a href="#">EXPLORE NOW</a></button>
+            </div>
+            <div class="imgbox">
+                <img src="../img/shoe1.png" class="litshoe" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="../img/shoe1.png" onclick="imgSlider('../img/shoe1.png'); circlecolor('#D4E4EA');"  alt=""></li>
+            <li><img src="../img/shoe2.png" id='shoe2' onclick="imgSlider('../img/shoe2.png'); circlecolor('#D3DDDA'); topdistance() "  alt=""></li>
+            <li><img src="../img/shoe3.png" onclick="imgSlider('../img/shoe3.png'); circlecolor('#EEEFF1');"  alt=""></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><p> </p> <i class='bx bxl-facebook' style="padding-left: 6px;"></i></li>
+            <li><a href="#"><i class='bx bxl-instagram' ></i></li>
+            <li><a href="#"><i class='bx bxl-youtube' ></i></li>
+        </ul>
+    </section>
+</body>
+</html>
+
+<script type="text/javascript" src="index.js">
+    
+</script>
